@@ -40,7 +40,7 @@ Browse your local player database. Sort and filter by name, game mode, clan, las
 ### Clans
 Browse clans in your local database. View member count, game mode, category (Casual / Competitive / Hardcore), vault contents (only an estimate) and last scan time.
 
-**Clan detail** includes member roster, vault contents (still an estimate), skill totals and individual member stats. Vault items display with images where available.
+**Clan detail** includes member list, vault contents (still an estimate), skill totals and individual member stats. Vault items display with images where available.
 
 ### Vault Rankings
 Leaderboard of clans ranked by total vault value. Displays quantities and estimated values.
@@ -109,6 +109,7 @@ Side-by-side comparison of many players. If in the same clan it can flag if vaul
 - **Market** — poll interval, price-alert threshold (set to 0 to disable alerts)
 - **Backup** — configure backup folder and retention
 - **Data management** — delete all data, wipe individual tables
+- **Game Data updates** — On first load grabs recent gamedata. It may require you to go to settings and update again but after that should be fine.
 
 
 ## Data & Privacy
