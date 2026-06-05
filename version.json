@@ -1,1 +1,5 @@
-Filler for update check
+{
+  "version": "1.0.0",
+  "downloadUrl": "https://www.idleclans.com",
+  "changelog": "Version Test"
+}
