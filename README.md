@@ -13,6 +13,12 @@ Sentinel pulls player and clan data from the Idle Clans API and stores it locall
 
 ---
 
+## Updating
+
+Updating is easy and optional (might occasionally be needed to fix missed issues). Sentinel will notify you with a small banner and a download button when one is available, you will only need to download and replace the existing exe file and good to go.
+
+---
+
 ## Features
 
 ### Home
@@ -87,16 +93,16 @@ Finds similar player names that appear in multiple clans across your stored play
 Detects clans with suspiciously similar names using fuzzy matching. Configurable similarity threshold.
 
 ### Clan Skill Signals
-Scans a list of clans and looks for unusual skill-level patterns — extremely high or unbalanced skills that may indicate botting.
+Scans a list of clans and looks for unusual skill-level patterns — extremely high or unbalanced skills that may indicate dodgy goings on.
 
 ### Clan Log Leads
-Surfaces clans with high log activity relative to their size. A high join/leave ratio can indicate recruiting activity or account cycling.
+Surfaces clans with high log activity relative to their size. A high join/leave ratio can indicate recruiting activity or account hiding.
 
 ### PvM Correlation
 For a selected boss or raid, shows which other bosses and skills tend to appear alongside it in your dataset. Useful for building a fuller picture of a player's activity profile.
 
 ###  Compare
-Side-by-side comparison of many players. If in the same clan it can flag if vault activity is sus. (This requires some degreee of logs stored.
+Side-by-side comparison of many players. If in the same clan it can flag if vault activity is sus. (This requires some degreee of logs stored).
 
 ---
 
@@ -111,9 +117,33 @@ Side-by-side comparison of many players. If in the same clan it can flag if vaul
 - **Data management** — delete all data, wipe individual tables
 - **Game Data updates** — On first load grabs recent gamedata. It may require you to go to settings and update again but after that should be fine.
 
+---
 
-## Data & Privacy
+## Built With
 
-- All data is stored **locally on your machine** in a SQLite database in the folder you chose on initial startup.
-- Sentinel only contacts the Idle Clans public API and (for update checks) a version file on GitHub.
-- No information ever leaves your machine. 
+Idle Clans Sentinel is built using:
+
+-  React 18
+-  Vite
+-  Electron
+-  SQLite (via better-sqlite3)
+
+---
+
+## Technical Notes
+
+- All player, clan, market and investigation data is stored locally in a SQLite database.
+- No account login is required.
+- Verification tokens used for account ownership checks are never sent anywhere other than the Idle Clans API. (And the only thing stored is name and date saved)
+- The application can works fine as an offline viewer. However, unless profiles are updated you will have stale information.
+- Automatic update checks only retrieve version information and do not upload any user data.
+- Database backups can be created and restored directly through the application.
+- Sentinel is designed as a data collection and investigation tool and does not interact with the game client itself.
+- Compatible with Windows portable builds and can be run without a traditional installer.
+- There are occasional calls to Github when checking for updates, this shouldn't affect usage in any way.
+
+---
+
+## Disclaimer
+
+Idle Clans Sentinel is not affiliated with, endorsed by, or maintained by the Idle Clans development team. All Idle Clans data remains the property of the Idle Clans Team.
