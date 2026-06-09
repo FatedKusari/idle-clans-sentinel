@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Idle Clans Sentinel</h1>
   <p><strong>Local profiles &nbsp;·&nbsp; Logs &nbsp;·&nbsp; Evidence</strong></p>
-  <p>A standalone desktop tool for tracking players and clans in <a href="https://www.idleclans.com">Idle Clans</a>.<br/>
+  <p>A standalone desktop tool for tracking players/clans and monitoring your own progress in <a href="https://www.idleclans.com">Idle Clans</a>.<br/>
   Runs entirely on your machine</p>
 </div>
 
