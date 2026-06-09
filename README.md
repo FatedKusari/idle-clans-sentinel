@@ -12,6 +12,9 @@
 Sentinel pulls player and clan data from the Idle Clans API and stores it locally in a SQLite database. Everything is searchable, filterable, and exportable. The more you scan, the richer your local dataset becomes.
 
 ---
+## Setup
+
+Place the Sentinel EXE into a folder, upon first launch it will ask where to save the database (I advise the folder the EXE is in). It may take a few moments to load then you are free to have at it.
 
 ## Updating
 
