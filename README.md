@@ -147,6 +147,16 @@ Idle Clans Sentinel is built using:
 
 ---
 
+## Source code
+
+This repository's source is available for anyone to read, audit, or fork for personal experimentation.
+
+**If you just want to use Sentinel, download the official portable EXE from the Releases page.** That's the build that's tested and kept up to date via the in-app update checker.
+
+Running the source yourself (`npm install` + `npm run dev`) works for development/review purposes.
+
+---
+
 ## Disclaimer
 
 Idle Clans Sentinel is not affiliated with, endorsed by, or maintained by the Idle Clans development team. All Idle Clans data remains the property of the Idle Clans Team.
