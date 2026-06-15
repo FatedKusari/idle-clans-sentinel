@@ -1,0 +1,46 @@
+Idle Clans Sentinel
+
+This repository's source code is made available for transparency and
+community review.
+
+1. PERMITTED USES
+
+   You may:
+
+   - View, read, and study the source code.
+   - Fork the repository for personal use, experimentation, or to propose
+     changes (e.g. via pull request).
+   - Run the application from source on your own machine for your own
+     personal use.
+   - Modify the source code for your own personal, non-distributed use.
+
+2. NOT PERMITTED
+
+   You may not, without asking first:
+
+   - Distribute, publish, or share compiled/packaged builds (executables,
+     installers, portable apps, or any other distributable) of
+     Sentinel, whether unmodified or modified.
+   - Distribute modified source code as, or as part of, a separate
+     application or tool intended for use by others.
+
+3. OFFICIAL BUILDS
+
+   The only builds of this software intended for use are those
+   published via the official Sentinel GitHub Releases page
+   for this repository. Builds distributed from any other source are not
+   official and are not endorsed, supported, or guaranteed to be safe.
+
+4. CONTRIBUTIONS
+
+   By submitting a pull request or other contribution to this repository,
+   you agree that your contribution may be incorporated into the project
+   and distributed under these same terms as part of official builds.
+
+5. QUESTIONS / PERMISSIONS
+
+   If you'd like to do something with this code that isn't covered above —
+   including building and sharing your own version with others — please
+   reach out first. Most reasonable requests are likely to be fine; this
+   license exists to keep "the official Sentinel build" meaning something,
+   not to discourage collaboration.
