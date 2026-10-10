@@ -1,5 +1,5 @@
 {
-  "version": "6.7.0",
-  "downloadUrl": "https://github.com/FatedKusari/idle-clans-sentinel/releases/tag/v6.7.0",
-  "changelog": "Own Clan tracking/Achievement(title) backfill"
+  "version": "6.8.0",
+  "downloadUrl": "https://github.com/FatedKusari/idle-clans-sentinel/releases/tag/v6.8.0",
+  "changelog": "Chat fixes (Dupe Clan Recruit Channel and ignore not working)"
 }
